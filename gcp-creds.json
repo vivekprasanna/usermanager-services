@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vivek-prabu-onboarding",
+  "private_key_id": "66f0f6137a8a10ecd6dec4e0e9dc8352ee5cd54d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0F9A1w+wMn0fY\ncb4J2HVkTvdZhBhntTKNGQX27gOu90dAskocMiqmZ8xIm2FG6QVqNJ48YYzZoguw\ngNJaqCHVe5aDL+L0UnURFtYaweGJU+USqvlWjpwzVP22cDpPgL8VdbxNLeVPDc4H\nl2wDVxcVHkXTs54Bx+5DqXEngAvVp7IROI07LxxOjLhrsPfX8XVQwYogra57tINE\n8BK9UKc9LXnPJRwvF8gCcUYTnazhQP6XqIxRA/DfvOtzO6p80g5wU6vMfvZuSNqv\nSYDXrGqoXT6Pu18V3WBpFXl3oGX3Bd0Znqe9zXglO69SatwPNwmGoR+BQP+J+X8L\n+vUtACofAgMBAAECggEADCqlrtQvIMUr+ePpRkoA2Ed7b2k8qtjzctPTctSunAXp\nouXImvIKrpZJl0gkAMHiU0P9wq+Gb/eCGakCTQyZyI3iY7d6+i2N6hskWMdrYLcx\nvRqe4KmexNsDju0zC0bz4dPD5mTo3nfcyOeCbRFXpl4WspAqZw1mO9z5H4WHhyYB\nUNjfPnWPVeYH2/p9O4JvQ+1fp21uDFAcrHfAebaAZZC5E/x1KiL6F9GOvWC9R4Zx\nKO1ag42Hl0/0la/reICMp9Wj0keQF0XP1ykmD6bfQH+fIxyYbuWsPw/gBt4FeIKj\nI3AZfmMhEi4MvBJoeB8YqfYCXCMzhyIjSLhu7rnQfQKBgQD4OtMLamjCIJAtCWLL\n3mPiToXPPTu13tdwRHPRcqIhMu1YFX72cT6dLXVOctOflpqKrQO8fsNyrpoBsKMH\nKSDMZ/GS0UqS+hRUzB38nNikG1ZAhuN7Ou62XZJQW2Ve7ATHbeiofOr9RPCC+Sq2\nDLs+QVRvDHXn0yKsllwyJSuUkwKBgQC5uvqQG1/gnVPWowPjpDqzoJ/XZ8qVFviY\n950+sRyqSiKbKjktFE+DMYRkKSj0gBBA5ck9+YJtx7K38IjJO5SDFmM3UBAVsee7\nHNi0b0Y1MqHirAcvQOR6w1/TwNezjGZvbsEhqEoYvKtVZOSlLx3+Jj1vXu8EutG1\ns7TtWI/3xQKBgQCZ1psE8CWMafHwd2irQGBW2KNFFIX06O5LvaCppYmlWZKOjIPq\n57QOZSXWQIO22/dbCm7OWyF16Y+4jGf9ABg7lg+5FcxJ2oLPKtFKxUneKrMBupcw\nwA1BKCyNcJcahNtRXWRbR0+7NwZ3pUQ7HxjMNGDHkclgqxFKNMVernqb0QKBgERH\nbefeeG/dxr2IblyYuo/gxAJvgLUwnbG2jhNHD0+3M2OxsRVWeyiy4oXj78966P7C\nuynSeVWcbaJbhh3cjmtmppDmGROwtI1APJaQtdHGzGbFcVq404YiHy98nI/AVMQw\nhkW2VY8khSQ+lCP531/YdQtlbh9iAsh2yVPcFAk1AoGBANfMli07VPfd/hR9UWNs\nG9uUYo6LnKifsxOp/0ZnHuhlE1oDem5oUCC7D7zZnrLRzZp/EQKbp3Jtvz8NmH/j\nGuEJzCoqghvi1RVKZYHf3kDG2cb/JGoFQw0e6yPjn79JgdJI0O0enw7ZxC+BgGpe\neTFjadAl0eb97sL7Ni6Gn79o\n-----END PRIVATE KEY-----\n",
+  "client_email": "usermanager-services@vivek-prabu-onboarding.iam.gserviceaccount.com",
+  "client_id": "115144479455744410768",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/usermanager-services%40vivek-prabu-onboarding.iam.gserviceaccount.com"
+}

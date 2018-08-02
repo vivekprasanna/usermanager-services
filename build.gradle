@@ -1,0 +1,52 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.3.RELEASE'
+    }
+    repositories {
+        maven {url "https://maven.springframework.org/libs-snapshot"}
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.homedepot.onboard'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    maven {url "https://maven.springframework.org/libs-snapshot"}
+}
+
+
+dependencies {
+    //
+    //compile('org.springframework.boot::spring-boot-starter-data-rest')
+    compile('org.springframework.cloud:spring-cloud-gcp:1.1.0.BUILD-SNAPSHOT')
+    compile('org.springframework.cloud:spring-cloud-gcp-starter-data-spanner:1.1.0.BUILD-SNAPSHOT')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-autoconfigure')
+    compile('commons-io:commons-io:2.4')
+    compile('io.springfox:springfox-swagger2:2.2.2')
+    compile('io.springfox:springfox-swagger-ui:2.2.2')
+    compile group: 'javax.json', name: 'javax.json-api', version: '1.0'
+    compile('com.zaxxer:HikariCP:2.4.6')
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+    compile('com.google.code.gson:gson:2.7')
+    compile('org.apache.commons:commons-lang3:3.4')
+
+
+    compile 'com.google.cloud:google-cloud-spanner:0.55.1-beta'
+    compile('commons-beanutils:commons-beanutils:1.9.2')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('net.javacrumbs.json-unit:json-unit:1.13.0')
+    testCompile  group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '2.0.2-beta'
+
+}
