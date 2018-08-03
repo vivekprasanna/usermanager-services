@@ -19,7 +19,7 @@ public class Manager {
             User userRead = userRepo.readUser(user);
             if (null == userRead || null == userRead.getUserName()) {
                 userRepo.insertUser(user);
-                return "Success";
+                return "User successfully registered.";
             }else{
                 return "User already registered.";
             }
